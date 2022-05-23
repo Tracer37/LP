@@ -14,14 +14,20 @@ mb = 0.1; % masa calej belki
 mbL = mb * rl / rb; % masa lewego belki
 mbP = mb * rp / rb; % masa prawej belki
 
-mw = 0.0256 * 1.5; % masa przeciwwagi?
+mw = 0.0256 * 1.5; % masa przeciwwagi
 
 ml= 0.252; % masa silnika lewej
 mp= 0.225; % masa silnika prawej
 
+% Beta
 x = 244; % 239
 y = 255;
 beta = asind(x / y); % kat od przeciwwagi
 beta_r = deg2rad(beta);
 %%
 
+xx = 70;
+yy = 240;
+
+bbeta = asind(x / y)
+beta
